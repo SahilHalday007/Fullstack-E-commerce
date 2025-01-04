@@ -22,6 +22,6 @@ export const createProductSchema = createInsertSchema(productsTable)
     .omit({ id: true }); 
 
 export const updateProductSchema = createInsertSchema(productsTable)
-    .extend({ id: z.optional(z.any()) }) 
-    .omit({ id: true })
+    .extend({ id: z.optional(z.any()), role: z.optional(z.any()) }) 
+    .omit({ id: true, role: true })
     .partial(); 

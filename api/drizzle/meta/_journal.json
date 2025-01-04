@@ -2,25 +2,12 @@
   "version": "7",
   "dialect": "postgresql",
   "entries": [
+   
     {
-      "idx": 0,
+      "idx": 3,
       "version": "7",
-      "when": 1735566014893,
-      "tag": "0000_round_tattoo",
-      "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "7",
-      "when": 1735566252432,
-      "tag": "0001_wide_purple_man",
-      "breakpoints": true
-    },
-    {
-      "idx": 2,
-      "version": "7",
-      "when": 1735566472593,
-      "tag": "0002_optimal_talkback",
+      "when": 1735918479034,
+      "tag": "0003_wealthy_monster_badoon",
       "breakpoints": true
     }
   ]
